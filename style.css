@@ -1,0 +1,72 @@
+/* Font import */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+:root {
+    /* --background-color: #f08080; */
+    --background-color: #e83939;
+    /* --font-color: #343a40; */
+    --font-color: #212529;
+    --container-color: #fdf1f1;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.8rem;
+    font-family: "Roboto", sans-serif;
+    color: var(--font-color);
+}
+
+.main {
+    padding: 15rem 30rem;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--background-color);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    background-color: var(--container-color);
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 40px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+    overflow: hidden;
+    padding: 2.4rem;
+}
+
+/********************/
+/* TIME BOX         */
+/********************/
+.timeBox {
+}
+
+/********************/
+/* WEATHER BOX      */
+/********************/
+.weatherBox {
+}
+
+/********************/
+/* LINKS BOX        */
+/********************/
+.linksBox {
+}
+
+/* 
+-- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+-- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
