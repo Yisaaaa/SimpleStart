@@ -34,7 +34,9 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
 
     background-color: var(--container-color);
     width: 100%;
@@ -49,12 +51,48 @@ body {
 /* TIME BOX         */
 /********************/
 .timeBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time {
+    font-size: 7.4rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    line-height: 1;
 }
 
 /********************/
 /* WEATHER BOX      */
 /********************/
+.date {
+    display: flex;
+    gap: 2rem;
+    font-size: 5.2rem;
+    font-weight: 700;
+    margin: 2rem;
+    line-height: 1;
+}
+
 .weatherBox {
+}
+
+.weather-desc {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+}
+
+.temp {
+    font-weight: 700;
+}
+
+.w-icon {
+    height: 3.6rem;
+}
+
+.w-txt {
 }
 
 /********************/
