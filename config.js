@@ -3,6 +3,9 @@ const CONFIG = {
     // General
     name: "Ryan",
     twentyFourHourFormat: false,
+    apiKey: "b17751fff3dfb37ab195bb39f4094aa8",
+    latitude: "14.52941",
+    longitude: "121.071022",
 
     // Greetings
     greetingMorning: "Good morning, ",

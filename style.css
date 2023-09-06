@@ -25,7 +25,9 @@ body {
 }
 
 .main {
-    padding: 15rem 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     width: 100%;
     background-color: var(--background-color);
@@ -36,10 +38,10 @@ body {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
+    width: 60%;
+    height: 70%;
 
     background-color: var(--container-color);
-    width: 100%;
-    height: 100%;
     box-shadow: 0px 0px 40px 20px rgba(0, 0, 0, 0.1);
     border-radius: 9px;
     overflow: hidden;
@@ -70,25 +72,36 @@ body {
     gap: 2rem;
     font-size: 5.2rem;
     font-weight: 700;
-    margin: 2rem;
     line-height: 1;
 }
 
 .weatherBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
 }
 
 .weather-desc {
     display: flex;
     align-items: center;
-    gap: 1.8rem;
+    gap: 1.2rem;
 }
 
 .temp {
     font-weight: 700;
 }
 
-.w-icon {
-    height: 3.6rem;
+.weather-icon {
+    height: 6.4rem;
+    /* background: linear-gradient(
+        to bottom right,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.5)
+    ); */
+    background: linear-gradient(to right bottom, #f7a5ab, #fce1e3);
+    border-radius: 9px;
 }
 
 .w-txt {
