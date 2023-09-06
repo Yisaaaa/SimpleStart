@@ -1,3 +1,4 @@
+// TIME AND GREETINGS SCRIPT
 const MONTHS = [
     "Jan",
     "Feb",
@@ -30,7 +31,7 @@ function displayDateTime() {
 
     // TIME
     let hour = d.getHours();
-    const minutes = d.getMinutes();
+    let minutes = d.getMinutes();
 
     if (!CONFIG.twentyFourHourFormat) {
         if (hour > 12) {
@@ -38,6 +39,10 @@ function displayDateTime() {
         } else if (hour === 0) {
             hour = 12;
         }
+    }
+
+    if (minutes < 10) {
+        minutes = "0" + minutes;
     }
 
     hourElement.textContent = hour;
