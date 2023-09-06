@@ -12,9 +12,9 @@ const CONFIG = {
     // General
     name: "Ryan",
     twentyFourHourFormat: false,
-    apiKey: "",
-    latitude: "",
-    longitude: "",
+    apiKey: "b17751fff3dfb37ab195bb39f4094aa8",
+    latitude: "14.529410",
+    longitude: "121.071022",
 
     // Greetings
     greetingMorning: "Good morning, ",
@@ -81,7 +81,7 @@ const CONFIG = {
             {
                 id: "1",
                 name: "Github",
-                url: "github.com/",
+                url: "https://github.com/",
             },
             {
                 id: "2",
