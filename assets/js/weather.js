@@ -1,4 +1,9 @@
-// WEATHER SCRIPT
+// __          __           _    _
+// \ \        / /          | |  | |
+//  \ \  /\  / /___   __ _ | |_ | |__    ___  _ __
+//   \ \/  \/ // _ \ / _` || __|| '_ \  / _ \| '__|
+//    \  /\  /|  __/| (_| || |_ | | | ||  __/| |
+//     \/  \/  \___| \__,_| \__||_| |_| \___||_|
 
 const api = `https://api.openweathermap.org/data/2.5/weather?lat=${CONFIG.latitude}&lon=${CONFIG.longitude}&appid=${CONFIG.apiKey}&units=metric`;
 
@@ -13,7 +18,6 @@ function getWeather() {
             return data;
         })
         .then((data) => {
-            console.log(data);
             let desc = data.weather[0].description;
             let temp = data.main.temp;
             let iconId = data.weather[0].icon;

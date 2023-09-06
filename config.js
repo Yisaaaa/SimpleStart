@@ -1,3 +1,12 @@
+//    _____                __  _
+//   / ____|              / _|(_)
+//  | |      ___   _ __  | |_  _   __ _
+//  | |     / _ \ | '_ \ |  _|| | / _` |
+//  | |____| (_) || | | || |  | || (_| |
+//   \_____|\___/ |_| |_||_|  |_| \__, |
+//                                 __/ |
+//                                |___/
+
 // BASIC CONFIG
 const CONFIG = {
     // General
@@ -11,6 +20,7 @@ const CONFIG = {
     greetingMorning: "Good morning, ",
     greetingAfternoon: "Good afternoon, ",
     greetingNight: "Good evening, ",
+    greetingSleep: "Go to sleep, ",
 
     // Columns
     firstColumnContainer: [
