@@ -12,9 +12,6 @@ const CONFIG = {
     // General
     name: "Ryan",
     twentyFourHourFormat: false,
-    apiKey: "",
-    latitude: "",
-    longitude: "",
 
     // Greetings
     greetingMorning: "Good morning, ",
@@ -22,7 +19,12 @@ const CONFIG = {
     greetingNight: "Good evening, ",
     greetingSleep: "Go to sleep, ",
 
-    // Columns
+    // Weather
+    apiKey: "b17751fff3dfb37ab195bb39f4094aa8",
+    latitude: "15.165380",
+    longitude: "120.608398",
+
+    // Links
     firstColumnContainer: {
         title: "Media",
         contents: [

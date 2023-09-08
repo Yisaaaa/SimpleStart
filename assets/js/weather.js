@@ -18,6 +18,7 @@ function getWeather() {
             return data;
         })
         .then((data) => {
+            console.log(data);
             let desc = data.weather[0].description;
             let temp = data.main.temp;
             let iconId = data.weather[0].icon;
