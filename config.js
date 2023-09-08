@@ -20,9 +20,9 @@ const CONFIG = {
     greetingSleep: "Go to sleep, ",
 
     // Weather
-    apiKey: "b17751fff3dfb37ab195bb39f4094aa8",
-    latitude: "15.165380",
-    longitude: "120.608398",
+    apiKey: "",
+    latitude: "",
+    longitude: "",
 
     // Links
     firstColumnContainer: {

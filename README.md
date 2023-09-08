@@ -2,7 +2,7 @@
 
 ![Image](assets/img/preview.png)
 
-### A simple yet customizable start page.
+### A simple and minimalist yet customizable start page.
 
 ## Usage
 
