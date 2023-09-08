@@ -56,7 +56,7 @@ You can also change the default links on your `config.js` file.
 
 ```js
 // Links
-		// e.g. first column -> firstColumnContainer
+	// e.g. first column -> firstColumnContainer
     <order>ColumnContainer: {
         title: "Media",
         contents: [
