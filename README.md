@@ -1,5 +1,7 @@
 # Simple Start
 
+![Image](assets/img/preview.png)
+
 ### A simple yet customizable start page.
 
 ## Usage
