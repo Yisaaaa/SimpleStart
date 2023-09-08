@@ -4,8 +4,8 @@
 :root {
     /* --background-color: #f08080; */
     --background-color: #e83939;
-    --font-color: #495057;
-    --font-color-hover: #343a40;
+    --font-color: #343a40;
+    --font-color-hover: #212529;
     --container-color: #fdf1f1;
     --links-title-color: #ee3b4a;
 }
@@ -65,6 +65,10 @@ body {
     font-weight: 700;
     margin-bottom: 2rem;
     line-height: 1;
+}
+
+.greeting-txt {
+    font-size: 2rem;
 }
 
 /********************/
@@ -127,6 +131,7 @@ body {
     width: 20rem;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
     text-align: center;
+    border-radius: 9px;
 }
 
 .col-title {
